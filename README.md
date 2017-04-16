@@ -13,7 +13,7 @@ requirements to create its report.
 ## Running the tests
 
 By running `mvn clean package`, Maven will only run unit tests and then produce coverage report only for these tests.
-By running `mvn clean install`, Maven will run unit and integration tests, and the coverage report will cover both.
+By running `mvn clean install`, Maven will run unit and integration tests, and the Netbeans coverage report will cover both. The reports folder, however, will contain 3 variations of the reports: jacoco-ut with only unit tests; jacoco-it with only integration tests; and jacoco with both merged.
 
 The execution steps in JaCoCo configuration defines different achievements. Unit tests produce the jacoco-ut related 
 files and folders, while Integration tests produce the jacoco-it related files and folders.

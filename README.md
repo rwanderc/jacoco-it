@@ -1,5 +1,7 @@
 # JaCoCoIT
 
+[![Build Status](https://travis-ci.org/rwanderc/jacoco-it.svg?branch=master)](https://travis-ci.org/rwanderc/jacoco-it)
+
 This is a project to exemplify JaCoCo in Maven covering unit and integration tests. This also covers Netbeans
 requirements to create its report.
 
